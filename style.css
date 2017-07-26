@@ -1,0 +1,48 @@
+.loading{
+	display:none !important;
+}
+
+.input-group {
+    display: none;
+}
+@media (min-width: 768px){
+.col-sm-8 {
+    width: 100%;
+}
+th { 
+
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+}
+@media (max-width: 1024px){
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	padding: 0px  ;
+}
+.bootgrid-table th > .column-header-anchor > .text {
+    display: block  ;
+    margin: 0 0px 0 0  ;
+}
+table { 
+  width: 100% ; 
+  border-collapse: collapse  ; 
+}
+.bootgrid-table {
+    table-layout: auto;
+}
+th { 
+
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+}
